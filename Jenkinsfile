@@ -6,6 +6,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/Joshua-Protoss/simple-apps.git'
             }
         }
+        
         stage('Build') {
             steps {
                 sh ''' cd app
